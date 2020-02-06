@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="tests.Selenium_tests"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="tests.Selenium_tests">
+        <methods>
+          <include name="test_case5"/>
+          <include name="test_case8"/>
+          <include name="test_case6"/>
+          <include name="test_case9"/>
+          <include name="test_case15"/>
+          <include name="test_case17"/>
+          <include name="test_case14"/>
+          <include name="test_case19"/>
+          <include name="test_case7"/>
+          <include name="test_case18"/>
+          <include name="test_case2"/>
+          <include name="test_case12"/>
+          <include name="test_case11"/>
+          <include name="test_case13"/>
+          <include name="test_case10"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Selenium_tests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
